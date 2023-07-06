@@ -22,7 +22,7 @@ export default function Features2() {
         <div className="flex flex-col gap-8 lg:w-1/2">
           <div className="flex flex-col gap-2">
             <h2 className="font-[800] text-[#2F281E] text-xl md:text-2xl">Create</h2>
-            <p className="font-[500] text-[#544837] indent-4 lg:w-4/5 text-lg md:text-xl text-justify lg:text-left">
+            <p className="font-[500] text-[#544837] indent-4 lg:indent-0 lg:w-4/5 text-lg md:text-xl text-justify lg:text-left">
               It only takes minutes to create a learning game or trivia quiz on
               any topic, in any language.
             </p>
@@ -39,7 +39,7 @@ export default function Features2() {
             <h2 className="font-[800] text-[#2F281E] text-xl md:text-2xl">
               Host or Share
             </h2>
-            <p className="font-[500] text-[#544837] indent-4 lg:w-4/5 text-lg md:text-xl text-justify lg:text-left">
+            <p className="font-[500] text-[#544837] indent-4 lg:indent-0 lg:w-4/5 text-lg md:text-xl text-justify lg:text-left">
               It only takes minutes to create a learning game or trivia quiz on
               any topic, in any language.
             </p>
@@ -54,7 +54,7 @@ export default function Features2() {
         <div className="flex flex-col gap-8 lg:w-1/2">
           <div className="flex flex-col gap-2">
             <h2 className="font-[800] text-[#2F281E] text-xl md:text-2xl">Play</h2>
-            <p className="font-[500] text-[#544837] indent-4 lg:w-4/5 text-lg md:text-xl text-justify lg:text-left">
+            <p className="font-[500] text-[#544837] indent-4 lg:indent-0 lg:w-4/5 text-lg md:text-xl text-justify lg:text-left">
               It only takes minutes to create a learning game or trivia quiz on
               any topic, in any language.
             </p>
