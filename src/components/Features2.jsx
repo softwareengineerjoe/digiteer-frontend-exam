@@ -7,7 +7,7 @@ export default function Features2() {
     <section className="flex flex-col gap-16 items-center">
       <h2 className="font-[700] text-[#333333] text-center w-full text-xl md:text-2xl">
         Still more?{" "}
-        <a href="/" className="underline text-[#3A5AFF] font-[700]">
+        <a href="/" className="hover:opacity-90 transition ease-in underline text-[#3A5AFF] font-[700]">
           Take a look to our featured games
         </a>
       </h2>

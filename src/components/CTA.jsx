@@ -13,7 +13,7 @@ export default function CTA() {
             placeholder="Write the Code here"
           />
           <button>
-            <img src={arrow} alt="" className="absolute right-3 top-2 md:right-5 md:top-3 w-4 md:w-6" />
+            <img src={arrow} alt="" className="hover:translate-x-1 transition ease-in absolute right-3 top-2 md:right-5 md:top-3 w-4 md:w-6" />
           </button>
         </div>
         <p className="font-[400] text-[#979797] text-center">

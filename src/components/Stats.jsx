@@ -34,7 +34,7 @@ export default function Stats() {
             Ready for make learning fun!
           </h2>
 
-          <button className="w-3/5 md:w-2/5 bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
+          <button className="hover:opacity-90 transition ease-in w-3/5 md:w-2/5 bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
             Sign up for free
           </button>
         </div>

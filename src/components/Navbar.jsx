@@ -38,13 +38,13 @@ export default function Navbar() {
         <div className="flex flex-col md:flex-row justify-center md:justify-end items-center w-full gap-4">
           <button
             onClick={() => goToPage("../sign-up")}
-            className="rounded py-1.5 font-semibold text-white bg-[#3A5AFF] border-b-4 border-black w-full lg:w-24"
+            className="hover:opacity-90 transition ease-in rounded py-1.5 font-semibold text-white bg-[#3A5AFF] border-b-4 border-black w-full lg:w-24"
           >
             Sign up
           </button>
           <button
             onClick={() => goToPage("../log-in")}
-            className="text-gray-400 border-gray-400 font-semibold py-1.5 border-2 rounded w-full lg:w-24"
+            className="hover:opacity-90 transition ease-in text-gray-400 border-gray-400 font-semibold py-1.5 border-2 rounded w-full lg:w-24"
           >
             Log In
           </button>

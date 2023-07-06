@@ -53,7 +53,7 @@ export default function Features() {
           <p className="font-[600] text-[#544837]">Learn more</p>
         </div>
       </div>
-      <button className="w-40 md:w-48 text-sm md:text-base uppercase border-b-4 border-black bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
+      <button className="transition ease-in hover:opacity-90 w-40 md:w-48 text-sm md:text-base uppercase border-b-4 border-black bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
         sign up now
       </button>
     </section>

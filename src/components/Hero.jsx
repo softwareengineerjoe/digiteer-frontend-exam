@@ -12,7 +12,7 @@ export default function HeroSection() {
         <p className="text-[#544837] md:text-xl lg:text-2xl tracking-wide">
           Any subject, in any language, on any device, for all ages!
         </p>
-        <button className="w-3/5 md:w-2/5 bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
+        <button className="hover:opacity-90 transition ease-in w-3/5 md:w-2/5 bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
           Sign up for free
         </button>
         <div className="flex flex-col gap-4">
