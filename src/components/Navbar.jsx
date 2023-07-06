@@ -53,7 +53,7 @@ export default function Navbar() {
       <button
         className={`${
           isOpen ? "" : "hidden"
-        } absolute top-0 left-0 z-10 w-full h-full text-black bg-transparent`}
+        } fixed top-0 left-0 z-10 w-full h-full text-black bg-transparent`}
         onClick={() => {
           setIsOpen(false);
         }}
