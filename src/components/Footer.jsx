@@ -11,7 +11,7 @@ import tiktok from "../assets/socmeds/tiktok.png";
 
 export default function Footer() {
   return (
-    <div className="max-w-7xl">
+    <div className="max-w-7xl mx-auto">
       <section className="flex justify-center flex-col-reverse lg:flex-row lg:gap-16 items-center text-white relative">
         <div className="flex flex-col gap-8">
           <img src={logo} alt="" className="h-auto" />
