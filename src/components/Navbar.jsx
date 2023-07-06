@@ -25,24 +25,26 @@ export default function Navbar() {
       <nav
         className={`${navbar} ${
           isOpen
-            ? "-translate-y-0 transition-transform ease-in"
+            ? "-translate-y-0 transition-transform ease-in shadow bg-white"
             : "-translate-y-full transition-transform ease-in"
         }`}
       >
-        <button onClick={() => goToPage("/")} className="flex-1">
-          <img src={logo} alt="" className="h-10" />
-          <span className="md:hidden">Home</span>
-        </button>
-        <div className="flex gap-4">
+        <div className="flex w-full lg:justify-normal justify-center">
+          <button onClick={() => goToPage("/")}>
+            <img src={logo} alt="" className="h-10 my-6 lg:my-0" />
+          </button>
+        </div>
+
+        <div className="flex flex-col md:flex-row justify-center md:justify-end items-center w-full gap-4">
           <button
             onClick={() => goToPage("../sign-up")}
-            className="rounded py-1.5 font-semibold text-white bg-[#3A5AFF] border-b-4 border-black w-24"
+            className="rounded py-1.5 font-semibold text-white bg-[#3A5AFF] border-b-4 border-black w-full lg:w-24"
           >
             Sign up
           </button>
           <button
             onClick={() => goToPage("../log-in")}
-            className="text-gray-400 border-gray-400 font-semibold py-1.5 border-2 rounded w-24"
+            className="text-gray-400 border-gray-400 font-semibold py-1.5 border-2 rounded w-full lg:w-24"
           >
             Log In
           </button>
@@ -61,5 +63,5 @@ export default function Navbar() {
 }
 
 const navbar =
-  "lg:flex flex-col lg:flex-row justify-between w-full lg:mt-16 fixed lg:relative top-0 lg:max-w-7xl mx-auto items-center px-8 lg:px-20 gap-2 z-20";
+  "md:flex flex-col lg:flex-row justify-between w-full lg:mt-24 fixed lg:relative top-0 lg:max-w-7xl mx-auto items-center px-8 py-4 md:pt-0 lg:px-20 gap-6 z-20";
 const navControl = "w-auto absolute top-4 left-4 lg:hidden";

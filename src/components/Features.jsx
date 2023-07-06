@@ -6,9 +6,9 @@ import sofa from "../assets/minis/sofa.png";
 export default function Features() {
   return (
     <section className="flex flex-col items-center gap-16 relative">
-      <h2 className="font-[800] text-[#2F281E] text-3xl z-20">Who is Kurtis for?</h2>
+      <h2 className="font-[800] text-[#2F281E] text-2xl md:text-3xl z-20">Who is Kurtis for?</h2>
       <div className="border-b-8 w-24 absolute top-8 border-[#3A5AFF] z-10"></div>
-      <div className="flex flex-row gap-8 items-baseline">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="max-w-xs flex flex-col gap-4">
           <div className="bg-[#3A5AFF] w-fit p-3 rounded-2xl">
             <img src={book} alt="" className="w-6" />
@@ -53,7 +53,7 @@ export default function Features() {
           <p className="font-[600] text-[#544837]">Learn more</p>
         </div>
       </div>
-      <button className="w-48 uppercase border-b-4 border-black bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
+      <button className="w-40 md:w-48 text-sm md:text-base uppercase border-b-4 border-black bg-[#3A5AFF] text-white font-semibold text-center py-3 rounded">
         sign up now
       </button>
     </section>

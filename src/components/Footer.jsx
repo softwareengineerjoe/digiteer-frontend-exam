@@ -11,28 +11,28 @@ import tiktok from "../assets/socmeds/tiktok.png";
 
 export default function Footer() {
   return (
-    <section className="flex justify-center flex-row gap-16 items-center text-white relative">
+    <section className="flex justify-center flex-col-reverse lg:flex-row lg:gap-16 items-center text-white relative">
       <div className="flex flex-col gap-8">
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className="h-auto"/>
 
         <div className="flex gap-2 flex-col">
           <p className="font-[700] text-xs">Get the app:</p>
-          <div className="grid grid-cols-2 gap-1">
+          <div className="grid grid-cols-3 lg:grid-cols-2 gap-1">
             <a href="">
-              <img src={appStore} alt="" />
+              <img src={appStore} alt="" className="h-10"/>
             </a>
             <a href="">
-              <img src={appGallery} alt="" />
+              <img src={appGallery} alt="" className="h-10"/>
             </a>
             <a href="">
-              <img src={googlePlay} alt="" />
+              <img src={googlePlay} alt="" className="h-10"/>
             </a>
           </div>
         </div>
 
         <div className="flex gap-2 flex-col">
           <p className="font-[700] text-xs">Follow us:</p>
-          <div className="grid grid-cols-5 gap-7">
+          <div className="grid grid-cols-7 md:grid-cols-9 lg:grid-cols-5 gap-4 md:gap-7">
             <a
               href=""
               className="rounded-full p-2 bg-white flex items-center justify-center"
@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-4 auto-cols-min">
+      <div className="grid grid-cols-2 gap-6 md:gap-8 lg:grid-cols-4 auto-cols-min pb-10 md:pb-14">
         <div className="flex flex-col gap-8">
           <h2 className="font-[700] text-sm">About</h2>
           <ul className="flex flex-col gap-4 text-sm">
@@ -145,7 +145,9 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="absolute -bottom-12 left-0 text-sm">Copyright @2020, Kurtis All rights reserved.</p>
+      <p className="absolute -bottom-8 lg:-bottom-4 lg:left-0 text-sm">
+        Copyright @2020, Kurtis All rights reserved.
+      </p>
     </section>
   );
 }

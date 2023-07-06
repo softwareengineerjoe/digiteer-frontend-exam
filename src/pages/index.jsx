@@ -41,12 +41,12 @@ export default function index() {
   );
 }
 
-const section1 = "max-w-7xl flex flex-col justify-center mx-auto px-28 py-12";
+const section1 = "max-w-7xl flex flex-col justify-center mx-auto px-4 md:px-12 lg:px-28 py-12";
 const section2 =
-  "max-w-7xl flex flex-col justify-center mx-auto px-28 py-12 bg-[#F2F2F2] min-h-[577px]";
+  " flex flex-col justify-center mx-auto px-4 md:px-12 lg:px-28 py-12 bg-[#F2F2F2]";
 const section3 =
-  "max-w-7xl flex flex-col justify-center mx-auto px-28 py-12 bg-[#FFC43B] min-h-[700px]";
-const section4 = "max-w-7xl flex flex-col justify-center mx-auto px-28 py-12";
-const section5 = "max-w-7xl flex flex-col justify-center mx-auto px-28 py-12";
+  "max-w-7xl flex flex-col justify-center mx-auto px-4 md:px-28 py-12 bg-[#FFC43B]";
+const section4 = "max-w-7xl flex flex-col justify-center mx-auto px-4 md:px-12 lg:px-28 py-12";
+const section5 = "max-w-7xl flex flex-col justify-center mx-auto px-4 md:px-28 py-12";
 const section6 =
-  "max-w-7xl flex flex-col justify-center mx-auto px-28 py-12 bg-[#3A5AFF] min-h-[500px]";
+  "max-w-7xl flex flex-col justify-center mx-auto px-4 md:px-28 py-12 bg-[#3A5AFF]";
